@@ -10,6 +10,10 @@
     display: flex;
     gap: 1rem;
   }
+
+  .active {
+    background-color: red;
+  }
   
   .list a {
     text-decoration: none;
@@ -20,4 +24,10 @@
   .list a.active {
     color: var(--color-primary-800);
     text-decoration: underline;
+  }
+
+
+  .list a:hover,
+  .list a.active {
+    color: var(--color-primary-800)    
   }
