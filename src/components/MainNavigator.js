@@ -11,9 +11,7 @@ function MainNavigator() {
               className={({ isActive }) =>
                 isActive ? classes.active : undefined
               }
-              style={({ isActive }) => ({
-                textAlign: isActive ? "center" : "right",
-              })}
+              end
             >
               Home
             </NavLink>
